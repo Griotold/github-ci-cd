@@ -16,6 +16,6 @@ public class ItemController {
 
     @GetMapping("/items")
     public List<String> items() {
-        return Arrays.asList("item1", "item2");
+        return Arrays.asList("item1", "item2", "item3");
     }
 }
