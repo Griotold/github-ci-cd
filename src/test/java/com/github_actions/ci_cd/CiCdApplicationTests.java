@@ -23,7 +23,7 @@ class CiCdApplicationTests {
 
 	@Test
 	void findAll() {
-		List<String> contents = Arrays.asList("item1", "item2");
+		List<String> contents = Arrays.asList("item1", "item2", "item3");
 		assertThat(restTemplate.getForObject("/items", List.class)).isEqualTo(contents);
 	}
 
